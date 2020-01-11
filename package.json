@@ -1,0 +1,26 @@
+{
+  "name": "nlm-rximage-client",
+  "version": "1.0.0",
+  "author": "EdyVision",
+  "description": "A client for the National Library of Medicine's RXImage API",
+  "repository": "https://github.com/edyvision/nlm-rximage-client",
+  "bugs": {
+    "url": "https://github.com/edyvision/nlm-rximage-client/issues"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "national",
+    "library",
+    "medicine",
+    "nlm",
+    "rximage",
+    "drug",
+    "search"
+  ],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.1"
+  }
+}
